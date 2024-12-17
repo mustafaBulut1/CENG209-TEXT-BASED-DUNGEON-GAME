@@ -3,17 +3,17 @@ CFLAGS = -Wall -g
 OBJ = Creature.o Game.o Item.o Player.o Room.o
 TARGET = Game.exe
 
-# Derleme hedefi
+# Build target
 $(TARGET): $(OBJ)
 	$(CC) $(OBJ) -o $(TARGET)
 
-# .c dosyalarını .o dosyalarına çevir
+# Convert .c files to .o files
 %.o: %.c %.h
 	$(CC) $(CFLAGS) -c $< -o $@
 
-# Temizleme hedefi (Windows uyumlu)
+# Clean target (Windows compatible)
 clean:
 	del /f /q $(OBJ) $(TARGET)
 
-# Rebuild (temizle ve yeniden derle)
+# Rebuild (clean and rebuild)
 rebuild: clean $(TARGET)
