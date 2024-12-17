@@ -1,41 +1,38 @@
-
 # Text-Based Dungeon Game
 
-## Hakkında
-Text-Based Dungeon Game, oyuncuları bir zindan macerasına çıkardığı metin tabanlı bir macera oyunudur. Oyuncular, odalar arasında geçiş yaparak yaratıklarla savaşır, eşya toplar ve hayatta kalmaya çalışır. Oyun tamamen C programlama dili ile geliştirilmiştir.
+## About
+Text-Based Dungeon Game is a text-based adventure game that takes players on a dungeon adventure. Players navigate between rooms, fight creatures, collect items, and strive to survive. The game is entirely developed in the C programming language.
 
-## Özellikler
-- Zengin oyun dünyası: Birbirine bağlı odalar ve farklı türde yaratıklar.
-- Eşya sistemi: Oyuncuların kullanabileceği eşyalar.
-- Savaş mekaniği: Stratejik yaratık savaşları.
+## Features
+- **Rich game world:** Interconnected rooms and various types of creatures.
+- **Item system:** Items for players to use.
+- **Combat mechanics:** Strategic battles with creatures.
 
-## Kurulum ve Çalıştırma
+## Installation and Execution
 
-### Gereksinimler
-- GCC derleyicisi veya benzer bir C derleyicisi
-- Bir terminal uygulaması
+### Requirements
+- GCC compiler or a similar C compiler
+- A terminal application
 
-### Kurulum
-1. Depoyu yerel makinenize klonlayın:
+### Installation
+1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/mustafaBulut1/Text-Based-Dungeon-Game.git
    ```
-2. Proje dizinine gidin:
+2. Navigate to the project directory:
    ```bash
    cd Text-Based-Dungeon-Game
    ```
-3. Oyunu derlemek için Makefile kullanın:
+3. Use the Makefile to compile the game:
    ```bash
    make
    ```
 
-### Çalıştırma
-Derlemeden sonra oyunu başlatmak için:
+### Execution
+After compiling, start the game with:
 ```bash
 ./Game
 ```
 
-
-## Lisans
-Bu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasını kontrol edin.
-
+## License
+This project is licensed under the MIT License. For more information, check the `LICENSE` file.
