@@ -18,7 +18,7 @@ Text-Based Dungeon Game, oyuncuları bir zindan macerasına çıkardığı metin
 ### Kurulum
 1. Depoyu yerel makinenize klonlayın:
    ```bash
-   git clone https://github.com/kullaniciadi/Text-Based-Dungeon-Game.git
+   git clone https://github.com/mustafaBulut1/Text-Based-Dungeon-Game.git
    ```
 2. Proje dizinine gidin:
    ```bash
